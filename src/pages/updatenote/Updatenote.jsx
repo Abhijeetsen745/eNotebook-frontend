@@ -137,4 +137,4 @@ function UpdateNote() {
     )
 }
 
-export default UpdateNote
+export default UpdateNote;
