@@ -14,7 +14,7 @@ function Login() {
     //* Login Handle Function 
     const loginHandle = async () => {
 
-        const res = await fetch('http://localhost:4000/api/auth/login', {
+        const res = await fetch(`${import.meta.env.VITE_BACKEND_HOST_URL}/api/auth/login`, {
             method : 'POST',
             headers : {
                 'content-type': 'application/json'

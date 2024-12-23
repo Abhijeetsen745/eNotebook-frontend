@@ -16,7 +16,7 @@ function Signup() {
     const signupHandle = async () => {
 
         //* Send Data Through Api 
-        const res = await fetch(`http://localhost:4000/api/auth/signup`, {
+        const res = await fetch(`${import.meta.env.VITE_BACKEND_HOST_URL}/api/auth/signup`, {
             method : 'POST',
             headers : {
                 'Content-Type': 'application/json',
