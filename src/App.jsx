@@ -9,10 +9,10 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import AddNote from "./pages/addnote/AddNote";
-import UpdateNote from './pages/updatenote/UpdateNote.jsx'
+import UpdateNote from './pages/updatenote/UpdateNote'
 import NoPage from "./pages/nopage/NoPage";
 import Profile from "./pages/profile/Profile";
-import MyState from "./context/data/myState";
+import MyState from "./context/data/MyState";
 import { Toaster } from 'react-hot-toast';
 
 function App() {
